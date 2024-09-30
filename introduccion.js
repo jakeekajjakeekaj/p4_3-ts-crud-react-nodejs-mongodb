@@ -1,11 +1,11 @@
 // Lo que haremos para esta ocasión, es que vamos a transformar el código que ya se tenía a TS con MONGODB, por lo que lo que se hará es:
 // Una vez creada la carpeta de server y los archivos de .gitignore, .nvmrc, introduccion.js y README.md creamos un "npm create vite" colocando el nombre de "client" para la creación de nuestra carpeta client y dentro los archivos que se alojarán, ahora nos metemos a esta carpeta desde la consola y ejecutamos "npm install" y después ya podemos escribir "npm run dev" siguiendo las instrucciones que se nos indica al momento de crear el proyecto vite
 
-// Ahora para el lado del server, lo que se hará es que en la consola, dentro de server escribiremos "npm init" y después instalaremos los paquetes "npm i mysql express"
+// Ahora para el lado del server, lo que se hará es que en la consola, dentro de server escribiremos "npm init" y después instalaremos los paquetes "npm i mongoose express"
 
-// Ahora procederemos a limpiar un poco ya que se tiene código de ejemplo, para esta entramos a client y en App.jsx quitamos todo y agregamos un código básico, podemos eliminar el App.css ya que ya no se está utilizando más, de igual manera eliminamos todo el código de index.css y el main.jsx lo dejamos igual.
+// Ahora procederemos a limpiar un poco ya que se tiene código de ejemplo, para esta entramos a client y en App.tsx quitamos todo y agregamos un código básico, podemos eliminar el App.css ya que ya no se está utilizando más, de igual manera eliminamos todo el código de index.css y el main.jsx lo dejamos igual.
 
-// Ahora nos dirigiremos al lado del server, y dentro del package.json, escribimos dentro de "scripts" lo que ya conocemos para inicializar de forma rápida a nuestro servidor "dev": "nodemon index.js"
+// Ahora nos dirigiremos al lado del server, y dentro del package.json, escribimos dentro de "scripts" "dev": "nodemon src/index.ts" para inicializar de forma rápida a nuestro servidor.
 
 // Instalamos del lado del servidor "npm i nodemon -D", la -D indica que se instalará dentro de las dependencias, pero que no será necesario tenerse para el deploy
 
